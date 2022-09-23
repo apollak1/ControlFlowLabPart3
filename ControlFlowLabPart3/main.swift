@@ -1,6 +1,8 @@
 import Foundation
 
 /*
+ version 9/23/22
+ 
  CONTROL FLOW LAB PART 3
  
  LAB FUNDAMENTALS:
@@ -143,4 +145,3 @@ print("***PROBLEM 3.4 : FINISHING THE FITNESS APP")
 
 //Once you complete the coding, test and run the code with various values for currentHR to see if all the coding works. If all the coding works, check your work and see if it shows in the console. Then you are done! Push it up to GitHub.
 print("\n")
-
