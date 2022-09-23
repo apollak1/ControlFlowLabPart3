@@ -50,10 +50,10 @@ import Foundation
  (5 < 7 || 5 > 10) : returns true, because 5 is less than 7, but even though 5 is not greater than 10, we only need ONE of the statements to be true
  */
 
-/*
- PROBLEM 3 Fundamentals:
- */
 
+print("PROBLEM 3 Fundamentals:")
+
+print("Using OR (||)")
 //You will see the word OR in the below problem, has either fish OR pizza. OR is another attribute we see in our daily life. If I have a car OR a bike, I will go to the store. If I have money OR someone else has money, I will go to the show. If I have eggs OR toast I will make breakfast.
 //An OR statement is written with two vertical lines, using shift and backwards slash, ||
 //This OR statement says that either ONE or the OTHER needs to be true to do the action, an example is shown below
@@ -66,12 +66,20 @@ if (test1 == 5 || test2 == 7) {
     print("This statement ran")
 }
 
+print("\n")
+print("Using CONSTANTS BOOLEANS - TRUE OR FALSE")
+print("\n")
 
+print("Boolean TRUE test")
 //You will be asked to check CONSTANTS BOOLEANS. Booleans are either TRUE OR FALSE, and we can simply ask if something is true or not. The way we can do this is if (boolean)
 let test = true
 if (test) {
     print("This statement ran")
 }
+
+print("\n")
+
+print("Boolean FALSE test")
 //We can also check if something is NOT TRUE, by using an exclamation point, this denotes NOT TRUE
 let falseTest = false
 if (falseTest) {
@@ -81,19 +89,25 @@ else {
     print("The other item ran instead!")
 }
 
-/* PROBLEM 3.0 : FITNESS APP */
-// You want your fitness tracking app to give as much encouragement as possible to your users. Create a variable steps equal to the number of steps you guess you've taken today. Create a constant stepGoal equal to 10,000. Write an if-else statement that will print "You're almost halfway there!" if steps is less than half of stepGoal, and will print "You're over halfway there!" if steps is greater than half of stepGoal.
+print("\n")
+
+print("***PROBLEM 3.0 : FITNESS APP")
+// You want your fitness tracking app to give as much encouragement as possible to your users. Create a variable steps equal to the number of steps you guess you've taken today (already done for you). Create a constant stepGoal equal to 10,000 (already done for you). Write an if-else statement that will print "You're almost halfway there!" if steps is less than half of stepGoal, and will print "You're over halfway there!" if steps is greater than half of stepGoal.
 var steps = 400
 let stepGoal = 10000
 
 
-/* PROBLEM 3.1 : FITNESS APP */
+print("\n")
+print("***PROBLEM 3.1 : FITNESS APP")
 // Now create a new, but similar, if-else-if statement that prints "Way to get a good start today!" if steps is less than a tenth of stepGoal, prints "You're almost halfway there!" if steps is less than half of stepGoal, and prints "You're over halfway there!" if steps is greater than half of stepGoal.
 
 
 
+//Once you complete the coding, test "steps" with various numbers to see if all the coding works. Then continue.
 
-/* PROBLEM 3.2 : DINNER TIME */
+print("\n")
+
+print("***PROBLEM 3.2 : DINNER TIME")
 /*
  Imagine you're going to dinner with friends and are struggling to decide where to go. Two of you have very strong opinions and have clearly laid out your requirements for dinner as follows:
  
@@ -101,25 +115,32 @@ let stepGoal = 10000
  Your friend wants to eat somewhere with vegan options.
  
  Another friend brings up a restaurant she thinks will fit both of your criteria. This restaurant's attributes are represented by a few constants below. Write an if-else statement that will print "Let's go!" if the restaurant's attributes match the group's dietary requirements, and otherwise will print "Sorry, we'll have to think of somewhere else."
+ HINT: Create three boolean constants of hasFish, hasPizza, & hasVegan that are true. Then write your if-else statements.
  */
 
 
 
-/* PROBLEM 3.3 : COMBINING ALL LOGIC */
+print("\n")
+print("***PROBLEM 3.3 : COMBINING ALL LOGIC")
 // Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 82 degress or warmer and sunny out. Create a constant isNiceWeather that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk. Write an if statement that will print "I'm going for a walk!" if the weather is nice.
+//HINT: Declare two true Booleans - isRaining & isSunny. Then declare a variable - temp - that has the value of 90.Then declare the constant isNiceWeather which is given the value of the correct parameters of the previous three variables.
+//Double HINT: The conditional parens should begin with NOT isRaining.
 
 
 
+//Once you complete the coding, test and run the code with various boolean conditions in the variables to see if all the coding works. Change true into false, use different degrees, etc. Then continue.
 
-
-/* PROBLEM 3.4 : FINISHING THE FITNESS APP */
+print("\n")
+print("***PROBLEM 3.4 : FINISHING THE FITNESS APP")
 /*
  You decide that you want your fitness tracker to have a feature that helps users stay inside specified heart rate zones while they are working out. You'll display a message to the user telling them to go a little faster to increase their heart rate if they are below the target, tell them that they are spot on if they are in the target, and tell them to slow it down a little if they are over the target.
  
  Create constants isInTarget, isBelowTarget, and isAboveTarget that equal expressions that evaluate to whether or not currentHR is between the lower and upper bounds, below the lower bound, and above the upper bound, respectively. Then write an if-else-if statement that will print "You're right on track!" if the user is inside the target zone, "You're doing great, but try to push it a bit!" if the user is below the target zone, and "You're on fire! Slow it down just a bit." if the user is above the target zone.
+ //HINT: First declare a variable currentHR with a value of 90 and targetHR with a value of 100. Then declare your three constants. Finally, create your If- else if - else statement.
  */
 
 
 
-
+//Once you complete the coding, test and run the code with various values for currentHR to see if all the coding works. If all the coding works, check your work and see if it shows in the console. Then you are done! Push it up to GitHub.
+print("\n")
 
