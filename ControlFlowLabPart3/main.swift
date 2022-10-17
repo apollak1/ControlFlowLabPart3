@@ -1,7 +1,7 @@
 import Foundation
 
 /*
- version 9/23/22
+ version 10/17/22
  
  CONTROL FLOW LAB PART 3
  
@@ -82,9 +82,9 @@ if (test) {
 print("\n")
 
 print("Boolean FALSE test")
-//We can also check if something is NOT TRUE, by using an exclamation point, this denotes NOT TRUE
+//We can also check if something is NOT TRUE, by using an exclamation point (!), this denotes NOT TRUE
 let falseTest = false
-if (falseTest) {
+if (!falseTest) {
     print("This ran")
 }
 else {
